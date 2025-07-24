@@ -2,8 +2,14 @@
 
 .logo-img{
   display: flex;
-  justify-content: space-between;
+ justify-content: space-between;
 }
+.logo-img ul li{
+  list-style: none;
+ text-align: center;
+
+}
+ 
 nav ul{
   display: flex;
 
@@ -38,11 +44,14 @@ color: rgba(0, 0, 0, 0.5);
 
 /* Our-Plants section styles */
 .plants-description{
-  align-items: center;
+  text-align: center;
  
   
 }
-
+ .plants-title{
+  font-size: 50px;
+  margin-bottom: 16px;
+ }     
 .flower-container{
    
   display: grid;
@@ -52,7 +61,7 @@ color: rgba(0, 0, 0, 0.5);
    
 }
 .flower-details{
-  justify-content: center;
+  text-align: center;
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 20px;
@@ -96,8 +105,9 @@ color: rgba(0, 0, 0, 0.5);
   font-weight: bold;
 }
 .plant-description{
-  background-color: #E95A08;
+  
   width: 600px;
+ 
   margin-left: 100px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -113,15 +123,49 @@ color: rgba(0, 0, 0, 0.5);
   width: 1140px;
   height: 550px;
   background-repeat: no-repeat;
+  text-align: center;
+ 
 }
+ 
 .img-paragraph{
   font-size: 50px;
   color: white;
   font-weight: bold;
+ 
 }
 input{
   width: 645px;
   height: 50px;
+  font-size: 16px;
+  gap: 0px;
+}
+
+/* footer section styles */
+.footer-sec{
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 150px;
+}
+.footer-sec ul li{
+  list-style: none;
+  margin-top: 30px;
+}
+.footer-sec ul li a{
+  text-decoration: none;
+  color: #6B7280;
+  font-size: 18px;
+}
+.navbar-1{
+  margin-left: 70px;
+}
+.navbar-2{
+  margin-left: 70px;
+}
+.navbar-img{
+  margin-left: 100px;
+}
+.navbar-img img{
+   margin-left: 20px;
 }
 
 
