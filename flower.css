@@ -23,6 +23,7 @@ nav ul li a{
   
 
 }
+ 
 .first{
   color: #252432;
 }
@@ -134,88 +135,158 @@ margin: 150px auto;
 /* Latests Deals styles */
 .deals-sec{
   max-width: 1140px;
+  margin: 50px auto;
 }
 .deals-para{
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 .deals-title{
   font-size: 50px;
   font-weight: bold;
   
 }
-  .gfg {
-            position: relative;
-            width: 100%;
-            text-align: center;
-        }
-
-        .text-container {
-            position: absolute;
-            color: rgb(255, 255, 255);
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-           
-            padding: 0.5rem;
-            text-align: center;
-            font-weight: bold;
-            font-size: 20px;
-        }
-
-      .container {
-            position: absolute;
-            color: rgb(255, 255, 255);
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-           
-            padding: 0.5rem;
-            text-align: center;
-            font-weight: bold;
-            font-size: 40px;
-        }
-
-
-.image-container{
-  display: flex;
-  margin-left: 200px;
-}
-.button{
-  color: white;
-  font-size: 16px;
-}
-.button-1{
-  color: white;
-  font-size: 26px;
+.container {
+    display: flex;
+    gap: 20px;  
+    padding: 20px;
 }
 
+.promotion-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+}
+
+.promotion-right {
+    flex-grow: 1; 
+}
+
+.card {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;  
+}
+
+.bloom-plant {
+ background-image: url('./assets/deal-bloom.png'); 
+    width: 400px;
+    height: 250px;
+}
+
+.ana-plant {
+    background-image: url('./assets/deal-ana.png'); 
+    width: 400px;
+    height: 250px;
+}
+
+.zabo-plant {
+    background-image: url('./assets/deal-zabo.png');
+    width: 800px; 
+    height: 520px;  
+}
+
+.overlay-text {
+   
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.overlay-text p {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.overlay-text-1 p {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.shop-button {
+    background-color: white;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.shop-button:hover {
+    background-color: #ffc107;
+}
 
 /* styles backround image */
-.back-image{
-  background-image: url(assets/news-letter-bg.png);
-  width: 100%;
- 
-  background-position: center;
-  background-size: cover;
-  height: 550px;
-  background-repeat: no-repeat;
- 
- 
+.colorful-bunch-section {
+    position: relative;
+    width: 100%;
+    height: 533px; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    text-align: center;
 }
- 
-.img-paragraph{
- text-align: center;
-  font-size: 50px;
-  color: white;
-  font-weight: bold;
- 
- 
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('assets/news-letter-bg.png');  
+    background-size: cover;
+    background-position: center;
+    z-index: -1; 
 }
-input{
-  width: 645px;
-  height: 50px;
-  font-size: 16px;
-  gap: 0px;
+.content {
+    z-index: 1;  
+}
+
+.colorful-bunch-section h1 {
+    font-size: 3em;  
+    margin-bottom: 20px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.subscribe-form input[type="email"] {
+    padding: 15px 15px;
+    border: none;
+    width: 644px; 
+   
+    font-size: 1em;
+}
+
+.subscribe-form button {
+    background-color: #E95A08;  
+    color: white;
+    padding: 10px 20px;
+    border: none;
+     
+    cursor: pointer;
+    font-size: 1em;
+    
+}
+
+.subscribe-form button:hover {
+    background-color: rgb(30, 0, 255);  
 }
 
 /* footer section styles */

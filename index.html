@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" href="flower.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"/>
   <title>Flower Shop</title>
 </head>
 <body>
@@ -16,6 +17,7 @@
       <li><a class="first" href="">Home</a></li>
       <li><a class="second" href="">Shop</a></li>
       <li><a class="second" href="">About us</a></li>
+      <i class="fa-solid fa-cart-arrow-down"></i>
       <li><a class="third" href="">Cart ($56)</a></li>
     </ul>
    </nav>
@@ -105,12 +107,14 @@
 
       <div class="plant-description">
         <h3 class="plant-lover-title">Flower & Plants  Lov <br> er</h3>
+      <ul><li>
         <div class="all-paragraph margin">Indulge your senses with the beauty and <br> fragrance of our fresh flower shop. From classic <br> roses to exotic blooms, we offer a wide variety <br> of fresh.</div>
-
-      <div class="all-paragraph margin">Indulge your senses with the beauty and <br> fragrance of our fresh flower shop. From classic <br> roses to exotic blooms, we offer a wide variety <br> of fresh.</div>
-
+        </li></ul>
+        <ul><li><div class="all-paragraph margin">Indulge your senses with the beauty and <br> fragrance of our fresh flower shop. From classic <br> roses to exotic blooms, we offer a wide variety <br> of fresh.</div>
+         </li></ul>
+         <ul><li>
        <div class="all-paragraph margin">Indulge your senses with the beauty and <br> fragrance of our fresh flower shop. From classic <br> roses to exotic blooms, we offer a wide variety <br> of fresh.</div>
-        
+        </li></ul>
      
     </div>
 
@@ -123,8 +127,35 @@
     <h3 class="deals-title"> <span class="color">Latest </span> Deals</h3>
     <p class="all-paragraph">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
   </div>
-   <div class="image-container">
-    <div> 
+   <div class="container">
+        <div class="promotion-left">
+            <div class="card bloom-plant">
+                <div class="overlay-text">
+                    <p>60% Off | Bloom Plant</p>
+                    <button class="shop-button">Shop Now</button>
+                </div>
+            </div>
+            <div class="card ana-plant">
+                <div class="overlay-text">
+                    <p>30% Off | Ana Plant</p>
+                    <button class="shop-button">Shop Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="promotion-right">
+            <div class="card zabo-plant">
+                <div class="overlay-text-1">
+                    <p>25% Off | Zabo Plant</p>
+                    <button class="shop-button">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+  <!--<div class="image-container">
+    <div class="deals-img"> 
 
     <div class="gfg">
      <img src="assets/deal-bloom.png" alt=""> 
@@ -155,17 +186,21 @@
      </div>
      </div>
      </div>
+     --> 
    </section>
 
 
-<section>
-  <div class="back-image">
-    <div class="style">
-    <h3 class="img-paragraph">Join the colorful Bunch</h3>
-    <input type="text" placeholder="Write email">
-    <button class="btn-primary">Subscribe</button>
+<section class="back-img-sec">
+ <div class="colorful-bunch-section">
+    <div class="background-image"></div>
+    <div class="content">
+        <h1>Join the colorful Bunch</h1>
+        <div class="subscribe-form">
+            <input type="email" placeholder="Write email">
+            <button type="submit">Subscribe</button>
+        </div>
     </div>
-  </div>
+</div>
  
      
     
